@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-macondo: "Macondo Swash Caps", cursive;
+  --font-montserrat-alt: "Montserrat Alternates", sans-serif;
+}
+
+p {
+  font-family: var(--font-montserrat-alt);
+}
+
+@font-face {
+  font-family: 'Arumira';
+  src: url('./assets/Arumira-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Arumira', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
