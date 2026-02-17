@@ -57,7 +57,7 @@ export default function AboutSection() {
           <img
             src={AboutImage}
             alt="Modern dental clinic at Scaler Dental Hospital"
-            className="rounded-3xl shadow-2xl w-full max-w-4xl object-cover aspect-[16/9]"
+            className="rounded-3xl shadow-2xl w-full max-w-4xl object-cover "
           />
         </motion.div>
 
