@@ -23,12 +23,12 @@ export default function ContactSection() {
         >
           <h2
             id="contact-heading"
-            className="text-4xl font-bold text-gray-800 mb-4"
+            className="text-4xl font-bold text-gray-800 mb-4 "
           >
             Book Your Painless Root Canal Today
           </h2>
 
-          <p className="text-gray-600 mb-8">
+          <p className="text-gray-600 mb-8 text-center">
             Experiencing tooth pain? Don’t wait. Get expert root canal treatment
             at Scaler Hospital with advanced technology and compassionate care.
           </p>

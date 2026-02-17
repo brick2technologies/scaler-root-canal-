@@ -110,12 +110,12 @@ export default function Navbar() {
               <NavLink to="#contact">Contact</NavLink>
             </nav>
 
-            <Link
-              to="/contact"
+            <a
+              href="#contact"
               className="hidden lg:inline-block bg-[#3c6d71] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#2c5154] transition duration-300 shadow-md hover:shadow-lg font-montserrat-alt"
             >
               Book Consultation
-            </Link>
+            </a>
 
             <button
               className="lg:hidden text-[#3c6d71]"

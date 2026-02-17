@@ -13,9 +13,11 @@ export default function HeroSection() {
         relative
         min-h-screen
         pt-[140px]
-        flex flex-col items-center justify-center
+        flex flex-col items-center justify-start
+        gap-6 sm:gap-8 lg:gap-10
         overflow-hidden text-center px-6
-        bg-[linear-gradient(to_bottom,#36bac1,#73c9d7,#a2d8e7,#cde8f4,#f2f8fc)] pb-28
+        bg-[linear-gradient(to_bottom,#36bac1,#73c9d7,#a2d8e7,#cde8f4,#f2f8fc)]
+        pb-20 lg:pb-28
       "
     >
       {/* BACKGROUND ROOT CANAL TEXT */}
@@ -25,7 +27,7 @@ export default function HeroSection() {
         transition={{ duration: 1.2, ease: "easeOut" }}
         className="
           absolute
-          top-[30%] sm:top-[35%] md:top-[30%] lg:top-[28%]
+          top-[32%] sm:top-[34%] md:top-[30%] lg:top-[25%] xl:top-[22%]
           left-1/2 -translate-x-1/2
           text-[16vw] sm:text-[16vw] md:text-[14vw] lg:text-[12vw]
           font-macondo
@@ -47,7 +49,7 @@ export default function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{
           duration: 1.2,
-          ease: [0.22, 1, 0.36, 1], // smooth luxury easing
+          ease: [0.22, 1, 0.36, 1],
           delay: 0.3,
         }}
         className="relative z-20"
@@ -74,17 +76,17 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.8 }}
-        className="relative z-20 mt-2 max-w-xl "
+        className="relative z-20 max-w-xl"
       >
-        <p className="text-gray-600 text-base sm:text-lg md:text-xl mb-3 ">
-          Painless Root Canal Treatment by Expert Dentists.
-          Save your natural tooth with advanced technology.
+        <p className="text-gray-600 text-base sm:text-lg md:text-xl mb-4">
+          Painless Root Canal Treatment by Expert Dentists. Save your natural
+          tooth with advanced technology.
         </p>
-
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="
+        <a href="#">
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="
             inline-flex items-center gap-2
             bg-[#3c6d71]
             hover:bg-[#325a5d]
@@ -93,10 +95,11 @@ export default function HeroSection() {
             rounded-full text-base sm:text-lg
             shadow-lg transition duration-300
           "
-        >
-          <Phone size={20} />
-          Book Appointment
-        </motion.button>
+          >
+            <Phone size={20} />
+            Book Appointment
+          </motion.button>
+        </a>
       </motion.div>
     </motion.section>
   );

@@ -8,12 +8,14 @@ import TestimonialsSection from "./components/Testimonials"
 import ContactSection from "./components/Contact"
 
 import SocialMediaBar from "./components/SocialMediaBar"
+
 function App() {
   
 
   return (
     <>
     <SocialMediaBar />
+    
       <Navbar />
       <HeroSection />
        <div className="-mt-16 lg:-mt-24">

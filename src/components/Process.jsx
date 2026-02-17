@@ -180,7 +180,7 @@ export default function RootCanalProcess() {
           className="text-center mt-24"
         >
           <a
-            href="#appointment"
+            href="#contact"
             className="inline-block bg-[#3c6d71] hover:bg-[#2fa9b0] text-white px-10 py-4 rounded-full text-lg font-semibold shadow-xl transition duration-300"
             aria-label="Book Root Canal Appointment at Scaler Hospital"
           >

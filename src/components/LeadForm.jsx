@@ -64,7 +64,7 @@ export default function LeadBarForm() {
           {/* Button */}
           <button
             type="submit"
-            className="w-full lg:w-auto bg-teal-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-teal-700 transition duration-300"
+            className="w-full lg:w-auto bg-[#3c6d71] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#3c6d71]/90 transition duration-300"
           >
             Book Appointment
           </button>
